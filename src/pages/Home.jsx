@@ -130,7 +130,7 @@ export const Home=()=>{
     
     useEffect(()=>{
         dispatch(pingServer());
-        alert(serverActive);
+    //    alert(serverActive);
         if(serverActive){ dispatch(getOnlineData());}
     },[dispatch])
 
