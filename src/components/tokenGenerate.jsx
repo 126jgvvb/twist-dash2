@@ -81,7 +81,7 @@ let expiry=null;
     </select>    
    </div>
  
-     <button onClick={(Event)=>{NotifyServerAbtNewToken()}} className={"zoe-button w-1/2  ml-18 md:ml-40 lg:ml-80 "} > {!isSending ? 'Generate Token':'Generating...'}</button>
+     <button onClick={(Event)=>{NotifyServerAbtNewToken()}} className={"zoe-button px-2 py-2 rounded-full bg-primary text-primary-foreground font-medium transition-all duration-300 hover:shadow-[0_0_10px_rgba(139,92,246,0.5)] hover:scale-105 active:scale-95 w-1/2  ml-18 md:ml-40 lg:ml-80 "} > {!isSending ? 'Generate Token':'Generating...'}</button>
 
 <div className={"md:flex space-x-7 justify-center mx-auto items-center"} >
      <span className={"text-1xl font-bold"} >Your Token code is:</span>
